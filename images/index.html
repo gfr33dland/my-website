@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gaby Freedland Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">Gaby Freedland</div>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Gaby<br>Freedland</h1>
+      <p class="subtitle">
+        B.S. Cognitive Science — Machine Learning & Neural Computation<br>
+        Expected Spring 2026
+      </p>
+      <div class="hero-buttons">
+        <button onclick="scrollToSection('about')">About Me</button>
+        <button class="secondary" onclick="scrollToSection('experience')">Experience</button>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="images/profile.jpg" alt="Profile Image">
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="section">
+    <h2>Welcome!</h2>
+    <p>
+      Hi! I am a third year at UC San Diego majoring in Cognitive Science. I hope to enter the industry in a space where I can help with the creation, design, and production of brain-computer interfaces and prosthetic limbs.
+    </p>
+    <p>
+      My deep-rooted desire to improve people’s quality of life has a personal connection to me. I am motivated by the opportunity to use technology and design to create new possibilities for individuals seeking a new chance at life.
+    </p>
+  </section>
+
+  <!-- EXPERIENCE SECTION -->
+  <section id="experience" class="section light">
+    <h2>Experience</h2>
+    <div class="cards">
+
+      <div class="card">
+        <img src="images/pedagogy.jpg" alt="Pedagogy Learning Apprentice">
+        <h3>Pedagogy Learning Apprentice</h3>
+        <p>Worked on curriculum design and student-centered learning initiatives.</p>
+      </div>
+
+      <div class="card">
+        <img src="images/research.jpg" alt="Research Assistant">
+        <h3>Research Assistant</h3>
+        <p>Conducted research in cognitive science and neuroscience-related projects.</p>
+      </div>
+
+      <div class="card">
+        <img src="images/software.jpg" alt="Junior Software Engineer">
+        <h3>Junior Software Engineer</h3>
+        <p>Developed modular software systems with a focus on clean architecture.</p>
+      </div>
+
+      <div class="card">
+        <img src="images/dance.jpg" alt="Dance">
+        <h3>Dance</h3>
+        <p>Creative movement and performance experience complementing technical work.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:gfreedland@example.com">gfreedland@example.com</a></p>
+    <div class="social-buttons">
+      <a href="#" class="button">LinkedIn</a>
+      <a href="#" class="button secondary">GitHub</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Gabriela Freedland
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
