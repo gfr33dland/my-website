@@ -1,6 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <title>Gaby Freedland</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">Gaby Freedland</div>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Gaby<br>Freedland</h1>
+      <p class="subtitle">
+        B.S. Cognitive Science — Machine Learning & Neural Computation  
+        <br>Expected Spring 2026
+      </p>
+
+      <div class="hero-buttons">
+        <button onclick="scrollToSection('about')">About Me</button>
+        <button class="secondary" onclick="scrollToSection('experience')">Experience</button>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <!-- Replace with your own image -->
+      <img src="images/profile.jpg" alt="Profile Image">
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <h2>Welcome!</h2>
+    <p>
+      Hi! I am a third year at UC San Diego majoring in Cognitive Science.
+      I hope to enter the industry in a space where I can help with the creation,
+      design, and production of brain–computer interfaces and prosthetic limbs.
+    </p>
+
+    <p>
+      My deep-rooted desire to improve people’s quality of life has a personal
+      connection to me, and I am motivated by the opportunity to use technology
+      and design to create new possibilities for individuals seeking a new chance
+      at life.
+    </p>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section light">
+    <h2>Experience</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Pedagogy Learning Apprentice</h3>
+        <p>Worked on educational development and learning-focused initiatives.</p>
+      </div>
+
+      <div class="card">
+        <h3>Research Assistant</h3>
+        <p>Assisted in cognitive science and neuroscience-related research projects.</p>
+      </div>
+
+      <div class="card">
+        <h3>Junior Software Engineer</h3>
+        <p>Developed and maintained software with an emphasis on modular design.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:gfreedland@example.com">gfreedland@example.com</a></p>
+
+    <div class="social-buttons">
+      <a href="#" class="button">LinkedIn</a>
+      <a href="#" class="button secondary">GitHub</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Gabriela Freedland
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
   <meta charset="UTF-8">
   <title>My Website</title>
 </head>
